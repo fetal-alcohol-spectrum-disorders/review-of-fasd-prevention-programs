@@ -1,0 +1,13 @@
+"title","description","identifier","valueTemplate","validValues","default","examples","parent","entityRef","fieldRef","owner","list","collapsing","repeating","recurring","recursing","identifying"
+"Study identifier","Unique identifier for this study","studyId","xdoi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"General comments","Any general comments the coder wants to add about this study","comments","string",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Year of publication","Year article was published","yearPublished","integer.length4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Country","Country (or countries) where the data were collected","country","countrycode",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Methods","Description of the methods used by the study","methods",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Sample size","Total number of human participants in the study (note: the actual sample size may be larger if multiple observations are collected per participant)","N","integer",NA,NA,NA,"methods",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Logic model","Description of the main elements in the intervention logic model (i.e. the logic model of the problem and the logic model of change)","logicModel",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Target group(s)","Description of the target group(s) of the intervention","descr.targetGroup","string",NA,NA,NA,"logicModel",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Determinant(s)","Description of the determinant(s) the intervention targets","descr.determinants","string",NA,NA,NA,"logicModel",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Problem","Description of the problem and the background of the problem","descr.problem","string",NA,NA,NA,"logicModel",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Method(s)","Description of the method(s) employed to target the determinant(s)","descr.methods","string",NA,NA,NA,"logicModel",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Application(s)","Description of the application(s) in which the method(s) are implemented","descr.applications","string",NA,NA,NA,"logicModel",NA,NA,NA,NA,NA,NA,NA,NA,NA
